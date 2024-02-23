@@ -8,12 +8,12 @@ function Signin() {
     return (
         <div className="w-full flex  relative bg-neutral-100">
             <Logo />
-            <div className="sign ">
-                <div className="text-stone-950 text-5xl font-bold">Sign in</div>
+            <div className="mx-auto mt-[173px] inline-flex flex-col items-center gap-[40px] md:p-[35px] p-[10px] relative bg-white">
+                <div className="text-stone-950 text-5xl font-bold mb-[40px]">Sign in</div>
                 <div className="flex-col justify-center items-center gap-10 flex">
                     <div className="flex-col justify-start items-start gap-[15px] flex">
-                        <Inputs placeholder={"email adresse"} />
-                        <Inputs placeholder={"Password"} />
+                        <Inputs placeholder={"email adress"} inpType={"text"} />
+                        <Inputs placeholder={"Password"} inpType={"password"} />
                     </div>
                     <div className="justify-start items-center gap-[238px] inline-flex mb-[-40px]">
                         <div className="justify-start items-center gap-[9px] flex">
@@ -34,7 +34,7 @@ function Signin() {
                         <div className="text-center text-neutral-600 text-lg font-normal">Login With Others</div>
                         <div className="w-[187px] h-[0px] border border-neutral-600"></div>
                     </div>
-                    <div className="w-[542px] h-12 p-2.5 bg-white rounded-[5px] shadow justify-center items-center gap-[19px] inline-flex">
+                    <div className="w-[542px] h-12 p-2.5 bg-white rounded-[5px] shadow justify-center items-center mb-[35px] gap-[19px] inline-flex">
                         <img className="w-[38px] h-[38px]" src={google_logo} />
                         <div className="text-neutral-600 text-xl font-medium">Sign in with google</div>
                     </div>
