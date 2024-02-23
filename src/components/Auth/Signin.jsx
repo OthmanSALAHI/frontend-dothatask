@@ -8,7 +8,7 @@ function Signin() {
     return (
         <div className="w-full flex  relative bg-neutral-100">
             <Logo />
-            <div className="md:w-[612px] w-[250px] m-auto mt-[173px] inline-flex flex-col items-center md:gap-[20px] gap-[25px] p-[35px] relative bg-white rounded-md">
+            <div className="md:w-[612px] w-[270px] m-auto mt-[173px] inline-flex flex-col items-center md:gap-[20px] gap-[25px] p-[35px] relative bg-white rounded-md">
                 <div className="text-stone-950 md:text-5xl text-xl font-bold md:mb-[40px]">Sign in</div>
                 <form className="flex-col justify-center items-center md:gap-10 gap-5 flex">
                     <div className="flex-col justify-start items-start gap-[15px] flex">
