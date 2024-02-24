@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Logo } from "./Logo";
-import { Button } from "./ui/button";
+import { Button } from "../ui/button";
 import { LuMenu } from "react-icons/lu";
 import { useState } from "react";
 
@@ -21,9 +21,8 @@ export const Navbar = () => {
           <LuMenu />
         </li>
         <li
-          className={`flex sm:flex w-[100%] pt-5 sm:pt-0 sm:w-fit justify-around ${
-            open ? "" : "hidden"
-          }`}>
+          className={`flex sm:flex w-[100%] pt-5 sm:pt-0 sm:w-fit justify-around ${open ? "" : "hidden"
+            }`}>
           <ul className="flex gap-5 font-500 items-center">
             <li>
               <Link to="">

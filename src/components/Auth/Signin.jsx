@@ -17,7 +17,7 @@ function Signin() {
     }
     return (
         <div className="w-full flex  relative bg-neutral-100">
-            <div className="lg:w-[612px] md:w-[650px] sm:w-[300px] m-auto mt-[50px] inline-flex flex-col items-center md:gap-[20px] gap-[25px] p-[35px] relative bg-white rounded-md">
+            <div className="custom-dynamic-style">
                 <div className="text-stone-950 md:text-5xl text-xl font-bold md:mb-[40px]">Sign in</div>
                 <div className="flex-col justify-center items-center md:gap-10 gap-5 flex">
                     <form onSubmit={handleSubmit(onsumbit)} className="flex-col justify-center items-center md:gap-10 gap-5 flex" action="" >
@@ -26,16 +26,14 @@ function Signin() {
                                 type="email"
                                 placeholder="email adress"
                                 {...register('email', { required: true })}
-                                className="lg:w-[542px] md:w-[480px] w-[225px] h-12 p-2.5 md:text-lg text-md bg-white 
-                                rounded-[5px] shadow justify-start items-center gap-[113px] inline-flex mx-auto"
+                                className="custom-input-style"
                             />
                             {errors.email && <Errors content={"This field is required"} />}
                             <input
                                 type="password"
                                 placeholder="Password"
                                 {...register('password', { required: true })}
-                                className="lg:w-[542px] md:w-[480px] w-[225px] h-12 p-2.5 md:text-lg text-md bg-white 
-                                rounded-[5px] shadow justify-start items-center gap-[113px] inline-flex mx-auto"
+                                className="custom-input-style"
                             />
                             {errors.password && <Errors content="This field is required" />}
                         </div>
@@ -47,10 +45,7 @@ function Signin() {
                             <div className="text-right text-neutral-600 md:text-lg text-sm font-normal">Forgot password?</div>
                         </div>
                         <div
-                            className="lg:w-[542px] md:w-[480px] w-[225px] h-12 p-2.5 hover:bg-emerald-400 bg-emerald-600 rounded-[5px] 
-                                    shadow-lg justify-center items-center gap-[113px] 
-                                    inline-flex mt-[40px] transition-all 
-                                    duration-100 ease-in-out cursor-pointer shadow-gray-100 ">
+                            className="custom-button-style">
                             <button type='submit' className="text-white md:text-2xl text-xl font-medium font-['Ubuntu']">login</button>
                         </div>
                     </form>

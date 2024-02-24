@@ -1,14 +1,15 @@
 import { useState } from "react";
-import { Navbar } from "./components/Navbar";
+import { Navbar } from "./components/header/Navbar";
 import Routers from "./components/routes/Routes";
-import Signin from "./components/Signin";
+import ForgotPassword from "./components/Auth/ForgotPassword";
 
 export const App = () => {
-  const { Auth, setAuth } = useState(false);
+  const [ Auth, setAuth ] = useState(false);
   return (
     <div>
       <Navbar />
       <Routers />
+      <ForgotPassword />
     </div>
   );
 };
