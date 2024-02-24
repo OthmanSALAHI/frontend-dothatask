@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from '../logo'
+
 import google_logo from '../../assets/google_logo.png';
 import { useForm } from 'react-hook-form';
 import Errors from '../areas/Errors';
@@ -17,8 +17,7 @@ function Signin() {
     }
     return (
         <div className="w-full flex  relative bg-neutral-100">
-            <Logo />
-            <div className="lg:w-[612px] md:w-[650px] sm:w-[300px] m-auto mt-[173px] inline-flex flex-col items-center md:gap-[20px] gap-[25px] p-[35px] relative bg-white rounded-md">
+            <div className="lg:w-[612px] md:w-[650px] sm:w-[300px] m-auto mt-[50px] inline-flex flex-col items-center md:gap-[20px] gap-[25px] p-[35px] relative bg-white rounded-md">
                 <div className="text-stone-950 md:text-5xl text-xl font-bold md:mb-[40px]">Sign in</div>
                 <div className="flex-col justify-center items-center md:gap-10 gap-5 flex">
                     <form onSubmit={handleSubmit(onsumbit)} className="flex-col justify-center items-center md:gap-10 gap-5 flex" action="" >
@@ -58,7 +57,7 @@ function Signin() {
                     <div className="justify-start items-start md:gap-1 gap-0 inline-flex">
                         <div className="text-center text-neutral-600 md:text-lg text-sm font-normal md:w-auto w-[200px]">
                             Doesn't have an account yet?
-                            <a className="text-center text-emerald-600 md:text-lg text-sm font-normal md:ml-[5px]">Sign up</a>
+                            <a href='/signup' className="text-center text-emerald-600 md:text-lg text-sm font-normal md:ml-[5px]">Sign up</a>
                         </div>
                     </div>
                     <div className="justify-start items-center gap-[9px] inline-flex">
