@@ -96,3 +96,7 @@
   @apply lg:w-[542px] md:w-[480px] w-[225px] h-12 p-2.5 text-lg bg-white 
   rounded-[5px] shadow justify-start items-center gap-[113px] inline-flex mx-auto;
 }
+
+.circle-design {
+  @apply  opacity-80 rounded-full border-[25px] border-emerald-600 absolute
+}
