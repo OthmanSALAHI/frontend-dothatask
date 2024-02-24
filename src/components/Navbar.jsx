@@ -26,21 +26,21 @@ export const Navbar = () => {
           }`}>
           <ul className="flex gap-5 font-500 items-center">
             <li>
-              <Link to="" relative="path">
+              <Link to="">
                 <span className="hover:text-do_green transition-all">
                   Services
                 </span>
               </Link>
             </li>
             <li>
-              <Link to="/login" relative="path">
+              <Link to="/login">
                 <span className="hover:text-do_green transition-all">
                   Sign in
                 </span>
               </Link>
             </li>
             <li>
-              <Link to="/signup" relative="path">
+              <Link to="/signup">
                 <Button
                   className="outline px-7 m-0 outline-do_green outline-1 text-do_green font-bold hover:bg-do_green transition-all hover:text-white"
                   variant="outline">
