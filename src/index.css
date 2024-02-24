@@ -67,6 +67,12 @@
   }
 }
 
+@layer components {
+  .text-md {
+    font-size: 1rem;
+  }
+}
+
 @layer base {
   * {
     @apply border-border;
@@ -95,4 +101,8 @@
 
 .circle-design {
   @apply opacity-80 rounded-full md:border-[20px] border-[9px] border-emerald-600 absolute
+}
+
+.place-input {
+  @apply text-neutral-500 md:text-2xl sm:text-lg text-md font-light md:w-[220px] sm:w-[150px] w-[80px] h-16 pl-5 pr-2.5 py-2.5 bg-white border border-neutral-500 justify-start items-center gap-2.5 inline-flex
 }
