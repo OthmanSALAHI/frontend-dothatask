@@ -1,10 +1,11 @@
-import Signin from "./components/Auth/Signin";
-import Signup from "./components/Auth/Signup";
+import { Navbar } from "./components/Navbar";
+import Routers from "./components/routes/Routes";
 
 export const App = () => {
   return (
     <div>
-      <Signup />
+      <Navbar />
+      <Routers />
     </div>
   );
 };
