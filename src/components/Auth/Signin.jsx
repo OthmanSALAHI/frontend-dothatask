@@ -49,10 +49,10 @@ function Signin() {
                             <button type='submit' className="text-white md:text-2xl text-xl font-medium font-['Ubuntu']">login</button>
                         </div>
                     </form>
-                    <div className="justify-start items-start md:gap-1 gap-0 inline-flex">
+                    <div className="justify-center items-center md:gap-1 gap-1 inline-flex  lg:w-[542px] md:w-[480px] w-[225px] text-center">
                         <div className="text-neutral-600 text-xl font-medium">
                             Doesn't have an account yet?
-                            <Link to='/signup' className="text-center text-emerald-600 md:text-lg text-sm font-normal md:ml-[5px]">Sign up</Link>
+                            <Link to='/signup' className="text-center text-emerald-600 md:text-lg text-sm font-normal ml-[5px]">Sign up</Link>
                         </div>
                     </div>
                     <div className="justify-start items-center gap-[9px] inline-flex">
