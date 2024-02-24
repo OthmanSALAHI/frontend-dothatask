@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 import { useForm } from 'react-hook-form';
 function Signup() {
     const {
@@ -64,7 +64,7 @@ function Signup() {
                     <div className="lg:w-[542px] md:w-[480px] w-[225px] h-12 p-2.5 bg-white rounded-[5px] text-center justify-center items-center mb-[35px] gap-[19px] inline-flex">
                         <div className="text-neutral-600 text-xl font-medium">
                             Already have an account?
-                            <a href='/login' className="text-center text-emerald-600 text-lg font-normal pl-2">Sign in</a>
+                            <Link to='/login' className="text-center text-emerald-600 text-lg font-normal pl-2">Sign in</Link>
                         </div>
                     </div>
                 </form>

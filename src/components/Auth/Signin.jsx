@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom';
 import google_logo from '../../assets/google_logo.png';
 import { useForm } from 'react-hook-form';
 import Errors from '../areas/Errors';
@@ -57,7 +57,7 @@ function Signin() {
                     <div className="justify-start items-start md:gap-1 gap-0 inline-flex">
                         <div className="text-center text-neutral-600 md:text-lg text-sm font-normal md:w-auto w-[200px]">
                             Doesn't have an account yet?
-                            <a href='/signup' className="text-center text-emerald-600 md:text-lg text-sm font-normal md:ml-[5px]">Sign up</a>
+                            <Link to='/signup' className="text-center text-emerald-600 md:text-lg text-sm font-normal md:ml-[5px]">Sign up</Link>
                         </div>
                     </div>
                     <div className="justify-start items-center gap-[9px] inline-flex">
