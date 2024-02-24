@@ -104,5 +104,5 @@
 }
 
 .place-input {
-  @apply text-neutral-500 md:text-2xl sm:text-lg text-md font-light md:w-[220px] sm:w-[150px] w-[80px] h-16 pl-5 pr-2.5 py-2.5 bg-white border border-neutral-500 justify-start items-center gap-2.5 inline-flex
+  @apply text-neutral-500 md:text-2xl sm:text-lg text-sm font-light md:w-[220px] sm:w-[150px] w-[80px] md:h-16 h-12 pl-5 pr-2.5 py-2.5 bg-white border border-neutral-500 justify-start items-center gap-2.5 inline-flex
 }
