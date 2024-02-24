@@ -86,17 +86,13 @@
 }
 
 .custom-button-style {
-  @apply lg:w-[542px] md:w-[480px] w-[225px] h-12 p-2.5 hover:bg-emerald-400 bg-emerald-600 rounded-[5px] 
-  shadow-lg justify-center items-center gap-[113px] 
-  inline-flex mt-[40px] transition-all 
-  duration-100 ease-in-out cursor-pointer shadow-gray-100 
+  @apply lg:w-[542px] md:w-[480px] w-[225px] h-12 p-2.5 hover:bg-emerald-400 bg-emerald-600 rounded-[5px] shadow-lg justify-center items-center gap-[113px] inline-flex mt-[40px] transition-all duration-100 ease-in-out cursor-pointer shadow-gray-100
 }
 
 .custom-input-style {
-  @apply lg:w-[542px] md:w-[480px] w-[225px] h-12 p-2.5 text-lg bg-white 
-  rounded-[5px] shadow justify-start items-center gap-[113px] inline-flex mx-auto;
+  @apply lg:w-[542px] md:w-[480px] w-[225px] h-12 p-2.5 text-lg bg-white rounded-[5px] shadow justify-start items-center gap-[113px] inline-flex mx-auto;
 }
 
 .circle-design {
-  @apply  opacity-80 rounded-full border-[25px] border-emerald-600 absolute
+  @apply opacity-80 rounded-full md:border-[20px] border-[9px] border-emerald-600 absolute
 }
