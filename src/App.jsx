@@ -4,12 +4,11 @@ import Routers from "./components/routes/Routes";
 import ForgotPassword from "./components/Auth/ForgotPassword";
 
 export const App = () => {
-  const [ Auth, setAuth ] = useState(false);
+  const [Auth, setAuth] = useState(false);
   return (
     <div>
       <Navbar />
       <Routers />
-      <ForgotPassword />
     </div>
   );
 };

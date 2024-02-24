@@ -42,7 +42,7 @@ function Signin() {
                                 <input type='checkbox' className="md:w-6 md:h-6 w-3 h-3 relative" />
                                 <p className="text-left text-neutral-600 md:text-lg text-sm font-normal">Remember me</p>
                             </div>
-                            <div className="text-right text-neutral-600 md:text-lg text-sm font-normal">Forgot password?</div>
+                            <Link to={'/forgotpassword'} className="text-right text-neutral-600 md:text-lg text-sm font-normal">Forgot password?</Link>
                         </div>
                         <div
                             className="custom-button-style">
@@ -50,7 +50,7 @@ function Signin() {
                         </div>
                     </form>
                     <div className="justify-start items-start md:gap-1 gap-0 inline-flex">
-                        <div className="text-center text-neutral-600 md:text-lg text-sm font-normal md:w-auto w-[200px]">
+                        <div className="text-neutral-600 text-xl font-medium">
                             Doesn't have an account yet?
                             <Link to='/signup' className="text-center text-emerald-600 md:text-lg text-sm font-normal md:ml-[5px]">Sign up</Link>
                         </div>
