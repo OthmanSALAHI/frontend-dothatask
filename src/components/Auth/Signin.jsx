@@ -16,7 +16,7 @@ function Signin() {
         console.log(e)
     }
     return (
-        <div className="w-full flex  relative bg-neutral-100">
+        <div className="w-full flex relative bg-neutral-100">
             <div className="custom-dynamic-style">
                 <div className="text-stone-950 md:text-5xl text-xl font-bold md:mb-[40px]">Sign in</div>
                 <div className="flex-col justify-center items-center md:gap-10 gap-5 flex">
