@@ -13,7 +13,7 @@ function Homepage() {
                 <div className="flex justify-center items-center">
                     <input type='text' placeholder='Place' className=" place-input rounded-tl-[40px] rounded-bl-[40px]" />
                     <input type='text' placeholder='categorie' className="place-input" />
-                    <button className=" md:text-2xl sm:text-lg text-sm font-light bg-emerald-600 h-16 text-white rounded-tr-[40px] md:w-[195px] w-[120px] rounded-br-[40px]"> Search </button>
+                    <button className=" md:text-2xl sm:text-lg text-sm font-light bg-emerald-600 md:h-16 h-12 text-white rounded-tr-[40px] md:w-[195px] w-[90px] rounded-br-[40px]"> Search </button>
                 </div>
             </div>
         </div>
