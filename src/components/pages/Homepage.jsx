@@ -26,8 +26,8 @@ function Homepage() {
             <div className='md:w-full relative bg-neutral-100 z-[-1]'>
                 <div className="md:size-[314px] size-[140px] circle-design buttom-10 md:mt-[-70px] mt-[-50px] md:ml-[-111px] ml-[-200px] z-[-1]" />
                 <div className='flex w-full items-center justify-center flex-col md:h-[45vh] h-[30vh] z-[-1]'>
-                    <div className="md:size-[238px] size-[95px]  circle-design md:right-[-140px] right-[-150px]" />
-                    <div className="md:size-[320px] size-[150px] circle-design top-[140px] md:right-[-140px] right-[-150px]" />
+                    <div className="md:size-[238px] size-[95px]  circle-design md:right-[-140px] bottom-[20px] right-[-150px]" />
+                    <div className="md:size-[320px] size-[150px] circle-design top-[120px] md:right-[-140px] right-[-150px]" />
                     <span className="text-neutral-800 lg:text-5xl md:text-3xl text-xl md:w-[40%] w-auto text-center md:mt-[60px] py-9 font-ubuntu">Find The Right Tasker</span>
                 </div>
             </div>
