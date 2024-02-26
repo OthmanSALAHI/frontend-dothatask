@@ -45,19 +45,21 @@ function Homepage() {
                     </div>
                 )}
             </div>
-            <div className="w-[1272px] h-[0px] border border-neutral-600 my-[80px]"></div>
-            <div className="text-neutral-800 text-[40px] font-bold mt-10 font-ubuntu">Popular Works</div>
+            <div className="w-full h-[0px] border border-neutral-600 md:my-[80px] my-[20px]"></div>
+            <div className="text-neutral-800 md:text-4xl text-md font-bold md:mt-10 mt-2 mb-6 font-ubuntu">Popular Works</div>
             <div className='flex gap-5 my-9'>
-                <svg className='absolute left-0 z-[-1] top-[840px]' width="757" height="800" viewBox="0 0 757 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg className='absolute left-0 z-[-1] top-[880px]' width="757" height="800" viewBox="0 0 757 800" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 0C0 0 220.181 43.3312 313.5 139.5C406.553 235.395 360.63 351.18 443.5 456C536 573 725.312 482 755 671.5C795.135 927.683 0 721 0 721V0Z" fill="#00B05E" />
                 </svg>
-                {popularWorks.map((e) =>
-                    <div className="w-[284px] h-auto bg-white rounded-[15px] shadow flex-col justify-start items-center gap-[20px] pb-5 inline-flex">
-                        <img className="w-[284px] h-[189px] rounded-tl-[15px] rounded-tr-[15px]" src="https://via.placeholder.com/284x189" />
-                        <div className="w-[247px] text-center text-neutral-800 text-xl font-normal font-ubuntu">A craftsman specialized in installing and maintaining electrical wiring systems.</div>
-                        <a className="w-40 text-center text-xl font-normal cursor-pointer text-do_green hover:text-do_hover_green font-ubuntu">Check out more...</a>
-                    </div>
-                )}
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 my-2">
+                    {popularWorks.map((e) => (
+                        <div className="md:w-[284px] w-[234px] h-auto bg-white rounded-[15px] shadow flex-col justify-start items-center gap-[20px] pb-5 inline-flex">
+                            <img className="md:w-[284px] w-[234px] md:h-[189px] h-[139px] rounded-tl-[15px] rounded-tr-[15px]" src="https://via.placeholder.com/284x189" />
+                            <div className="md:w-[247px] w-[217px] text-center text-neutral-800 md:text-xl md:text-md font-normal font-ubuntu">A craftsman specialized in installing and maintaining electrical wiring systems.</div>
+                            <a className="w-40 text-center md:text-xl md:text-md font-normal cursor-pointer text-do_green hover:text-do_hover_green font-ubuntu">Check out more...</a>
+                        </div>
+                    ))}
+                </div>
             </div>
         </div>
     )
