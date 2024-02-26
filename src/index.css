@@ -86,7 +86,8 @@
 }
 
 #root {
-  height: 982px;
+  height: auto;
+  overflow-y:hidden;
   overflow-x: hidden;
 }
 
