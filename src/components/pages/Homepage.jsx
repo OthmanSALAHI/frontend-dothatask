@@ -12,13 +12,13 @@ import { FaPencilRuler } from "react-icons/fa";
 
 function Homepage() {
     const categories = [
-        { name: 'Photographer', icon: <RiCameraLensFill className='md:size-[75px] size-[30px]' /> },
-        { name: 'builder', icon: <FaHammer className='md:size-[75px] size-[30px]' /> },
-        { name: 'Electrician', icon: <BsFillLightningChargeFill className='md:size-[75px] size-[30px]' /> },
-        { name: 'Baker', icon: <FaCookieBite className='md:size-[75px] size-[30px]' /> },
-        { name: 'Painter', icon: <FaPaintRoller className='md:size-[75px] size-[30px]' /> },
-        { name: 'Barber', icon: <FaScissors className='md:size-[75px] size-[30px]' /> },
-        { name: 'Designer', icon: <FaPencilRuler className='md:size-[75px] size-[30px]' /> },
+        { name: 'Photographer', icon: <RiCameraLensFill className='md:size-[60px] size-[30px]' /> },
+        { name: 'builder', icon: <FaHammer className='md:size-[60px] size-[30px]' /> },
+        { name: 'Electrician', icon: <BsFillLightningChargeFill className='md:size-[60px] size-[30px]' /> },
+        { name: 'Baker', icon: <FaCookieBite className='md:size-[60px] size-[30px]' /> },
+        { name: 'Painter', icon: <FaPaintRoller className='md:size-[60px] size-[30px]' /> },
+        { name: 'Barber', icon: <FaScissors className='md:size-[60px] size-[30px]' /> },
+        { name: 'Designer', icon: <FaPencilRuler className='md:size-[60px] size-[30px]' /> },
 
     ]
     return (
@@ -26,17 +26,17 @@ function Homepage() {
             <div className='md:w-full relative bg-neutral-100 z-[-1]'>
                 <div className="md:size-[314px] size-[140px] circle-design buttom-10 md:mt-[-70px] mt-[-50px] md:ml-[-111px] ml-[-200px] z-[-1]" />
                 <div className='flex w-full items-center justify-center flex-col md:h-[45vh] h-[30vh] z-[-1]'>
-                    <div className="md:size-[238px] size-[95px]  circle-design md:right-[-140px] right-[-200px]" />
-                    <div className="md:size-[320px] size-[150px] circle-design md:top-[122px] top-[60px] md:right-[-140px] right-[-200px]" />
+                    <div className="md:size-[238px] size-[95px]  circle-design md:right-[-140px] right-[-150px]" />
+                    <div className="md:size-[320px] size-[150px] circle-design top-[122px] md:right-[-140px] right-[-150px]" />
                     <span className="text-neutral-800 lg:text-5xl md:text-3xl text-xl md:w-[40%] w-auto text-center md:mt-[60px] py-9 font-ubuntu">Find The Right Tasker</span>
                 </div>
             </div>
             <SearchCategorie />
-            <div className="inline-flex items-center justify-center md:gap-10 gap-2 mt-[75px] relative">
+            <div className="inline-flex items-center justify-center md:gap-[50px] gap-2 mt-[75px] relative">
                 {categories.map((e) =>
-                    <div className="inline-flex flex-col mt-9 items-center w-[65px] md:gap-[16px] gap-[10] relative">
+                    <div className="inline-flex flex-col mt-9 items-center w-[120px] hover:px-6 p-4 rounded-2xl md:gap-[16px] gap-[5px] hover:shadow-lg hover:bg-do_hover_green shadow-neutral-600 transition ease-in delay-150 relative">
                         <div>{e.icon}</div>
-                        <div className="w-fit font-ubuntu font-normal md:text-lg text-xs">
+                        <div className="w-fit font-ubuntu font-normal md:text-md text-xs">
                             {e.name}
                         </div>
                     </div>
