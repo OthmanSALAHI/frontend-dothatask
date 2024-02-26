@@ -110,7 +110,7 @@
 }
 
 .categorie-style {
-  @apply inline-flex flex-col mt-0 items-center md:w-[120px] w-[40px] hover:px-6 p-4 rounded-2xl md:gap-[16px] gap-[5px] hover:shadow-sm shadow-gray-500 transition ease-in delay-150 relative
+  @apply inline-flex flex-col mt-0 items-center md:w-[120px] w-[50px] hover:px-6 p-4 rounded-2xl md:gap-[16px] gap-[5px] hover:shadow-sm shadow-gray-500 transition ease-in delay-150 relative
 }
 
 .categorie-icons {
