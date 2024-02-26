@@ -88,6 +88,7 @@
 #root {
   height: 982px;
   overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .custom-dynamic-style {
