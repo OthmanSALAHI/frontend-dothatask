@@ -87,6 +87,9 @@
 
 #root {
   height: 982px;
+  width: 1440px;
+  margin: auto;
+  overflow: hidden;
 }
 
 .custom-dynamic-style {
