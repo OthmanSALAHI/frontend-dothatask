@@ -9,7 +9,7 @@ function ServiceDetails() {
     const remain = 5 - rating
 
   return (
-    <div className='w-full flex relative bg-neutral-100 lg:m-[100px] md:m-[60px] lg:gap-[50px] gap-[2px] m-[20px]'>
+    <div className='w-full flex lg:flex-row flex-col items-start relative bg-neutral-100 lg:m-[100px] md:m-[60px] lg:gap-[50px] gap-[2px] m-[20px]'>
        <SliderImages />
     <div className="lg:w-[371px] lg:h-[495px] w-[200px] h-[190px] pt-3 p-[30px] mt-[110px] pl-2 bg-white shadow flex-col justify-start items-start lg:gap-[57px] gap-[10px] inline-flex">
     <div className="justify-start items-center lg:gap-[17px] gap-[2px] inline-flex">
