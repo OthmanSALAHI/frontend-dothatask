@@ -18,7 +18,7 @@ export const App = () => {
       </div>
       <Routers />
       <Footer />
-      ,<Link to="/details"> Details </Link>
+      ,<Link to="/details" className="bg-black w-[50px]"> Details </Link>
     </div>
   );
 };
