@@ -7,6 +7,7 @@ import Homepage from "./components/pages/Homepage";
 import SearchCategorie from "./components/areas/SearchCategorie";
 import Footer from "./components/footer/Footer";
 import ServiceDetails from "./components/pages/ServiceDetails";
+import { Link } from 'react-router-dom';
 
 export const App = () => {
   const [Auth, setAuth] = useState(false);
@@ -17,6 +18,7 @@ export const App = () => {
       </div>
       <Routers />
       <Footer />
+      ,<Link to="/details"> Details </Link>
     </div>
   );
 };
