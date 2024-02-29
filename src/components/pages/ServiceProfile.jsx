@@ -8,7 +8,7 @@ function ServiceProfile() {
     const rating = 4
     const remain = 5 - rating
   return (
-    <div className="lg:w-[371px] lg:h-[495px] w-[150px] h-[150px] pt-4 p-[30px] mt-[120px] pl-2 bg-white shadow flex-col justify-start items-start lg:gap-[57px] gap-[10px] inline-flex">
+    <div className="lg:w-[390px] bg-white lg:h-[495px] w-[150px] h-[150px] pt-4 p-[30px] mt-[120px] pl-2 shadow flex-col justify-start items-start lg:gap-[57px] gap-[10px] inline-flex">
     <div className="justify-start items-center lg:gap-[17px] gap-[2px] inline-flex">
         <img className="lg:size-[50px] size-[15px] object-cover rounded-full" src={worker} />
         <div className="text-center text-stone-950 lg:text-xl text-xs font-medium font-Ubuntu">Alexander Elijah</div>
@@ -30,9 +30,9 @@ function ServiceProfile() {
             </div>
         </div>
         <div className="text-center"><span className="text-stone-950 lg:text-2xl text-xxs font-normal font-Ubuntu">Orders: </span><span className="text-stone-950 lg:text-2xl text-xxs font-light font-Ubuntu">33</span></div>
-        <div className="text-center"><span className="text-stone-950 lg:text-2xl text-xxs font-normal font-Ubuntu">From: </span><span className="text-stone-950 lg:text-2xl text-xxs font-light font-Ubuntu">Casablanca</span></div>
-        <div className="text-left flex gap-[1px]"><span className="text-stone-950 lg:text-2xl text-xxs font-normal font-Ubuntu">Phone Number: </span><span className="text-stone-950 lg:text-2xl text-xxs font-light font-Ubuntu">0611214110</span></div>
-        <div className="text-center"><span className="text-stone-950 lg:text-2xl text-xxs font-normal font-Ubuntu">Service Price: </span><span className="text-stone-950 lg:text-2xl text-xxs font-light font-Ubuntu">500DH</span></div>
+        <div className="text-center flex gap-[2px]"><span className="text-stone-950 lg:text-2xl text-xxs font-normal font-Ubuntu">From: </span><span className="text-stone-950 lg:text-2xl text-xxs font-light font-Ubuntu">Casablanca</span></div>
+        <div className="text-left flex gap-[2px]"><span className="text-stone-950 lg:w-[170px] w-auto lg:text-2xl text-xxs font-normal font-Ubuntu">Phone Number: </span><span className="text-stone-950 lg:text-2xl text-xxs font-light font-Ubuntu">0611214110</span></div>
+        <div className="text-left flex gap-[2px]"><span className="text-stone-950 lg:w-[140px] w-auto lg:text-2xl text-xxs font-normal font-Ubuntu">Service Price: </span><span className="text-stone-950 lg:text-2xl text-xxs font-light font-Ubuntu">500DH</span></div>
     </div>
 </div>
   )
