@@ -27,24 +27,24 @@ function SliderImages() {
         setSelected(images[newIndex]);
     };
   return (
-    <div className='lg:w-auto w-[480px] ml-3'>
-        <div className="text-neutral-800 lg:text-4xl text-lg font-bold font-Ubuntu">Design a logo for your company or organization</div>
+    <div className='md:w-auto w-[480px] ml-3'>
+        <div className="text-neutral-800 md:text-4xl text-md font-bold font-Ubuntu">Design a logo for your company or organization</div>
             <div className='my-5'>
-                <span className="text-neutral-800 lg:text-xl text-sm font-medium font-Ubuntu">Category:</span>
-                <span className="text-neutral-800 lg:text-xl text-sm font-normal font-Ubuntu"> Logo Designer</span>
+                <span className="text-neutral-800 md:text-xl text-sm font-medium font-Ubuntu">Category:</span>
+                <span className="text-neutral-800 md:text-xl text-sm font-normal font-Ubuntu"> Logo Designer</span>
             </div>
-            <div className="grid lg:gap-2 grid-col-5 lg:w-[910px] w-[250px]" style={{width: '', height: ''}}>
-                <img className="lg:w-[910px] lg:h-[396px] w-[270px] h-auto object-cover col-span-5" src={selected} />
+            <div className="grid md:gap-2 grid-col-5 md:w-[910px] w-[250px]" style={{width: '', height: ''}}>
+                <img className="md:w-[910px] md:h-[396px] w-[270px] h-auto object-cover col-span-5" src={selected} />
                 <div className='flex'>
                 {images.map((image, index) => (
                     <img className="images-service" style={{opacity: image === selected ? 1 : 0.5 }} key={index} onClick={handleClick} name={image} src={image} />
                 ))}
                 </div>
                 <div className='absolute'>
-                    <div onClick={() =>handle_Click("left")} className="size[42px] lg:opacity-100 md:opacity-100 opacity-0 p-3 left-[25px] top-[180px] hover:opacity-50 absolute bg-white rounded-full -rotate-180 shadow justify-center items-center gap-2.5 flex" >
+                    <div onClick={() =>handle_Click("left")} className="size[42px] md:opacity-100 md:opacity-100 opacity-0 p-3 left-[25px] top-[180px] hover:opacity-50 absolute bg-white rounded-full -rotate-180 shadow justify-center items-center gap-2.5 flex" >
                         <LiaGreaterThanSolid/>
                     </div>
-                    <div onClick={() =>handle_Click("right")} className="size-[42px] p-2.5 left-[850px] lg:opacity-100 opacity-0 top-[180px] hover:opacity-50 absolute bg-white rounded-full shadow justify-center items-center gap-2.5 flex">
+                    <div onClick={() =>handle_Click("right")} className="size-[42px] p-2.5 left-[850px] md:opacity-100 opacity-0 top-[180px] hover:opacity-50 absolute bg-white rounded-full shadow justify-center items-center gap-2.5 flex">
                         <LiaGreaterThanSolid/>
                     </div>
                 </div>
