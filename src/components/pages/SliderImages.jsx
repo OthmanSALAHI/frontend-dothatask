@@ -27,7 +27,7 @@ function SliderImages() {
         setSelected(images[newIndex]);
     };
   return (
-    <div className=''>
+    <div className='bg-red-500 w-[350px] '>
         <div className="text-neutral-800 lg:text-4xl text-xl font-bold font-Ubuntu">Design a logo for your company or organization</div>
             <div className='my-5'>
                 <span className="text-neutral-800 lg:text-xl text-md font-medium font-Ubuntu">Category:</span>
