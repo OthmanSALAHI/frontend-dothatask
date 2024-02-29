@@ -38,11 +38,13 @@ function SliderImages() {
                 {images.map((image, index) => (
                     <img className="images-service" style={{opacity: image === selected ? 1 : 0.5 }} key={index} onClick={handleClick} name={image} src={image} />
                 ))}
-                <div onClick={() =>handle_Click("left")} className="size[42px] lg:opacity-100 md:opacity-100 opacity-0 p-3 left-[25px] top-[313px] hover:opacity-50 absolute bg-white rounded-full -rotate-180 shadow justify-center items-center gap-2.5 flex" >
-                    <LiaGreaterThanSolid/>
-                </div>
-                <div onClick={() =>handle_Click("right")} className="size-[42px] p-2.5 left-[850px] lg:opacity-100 opacity-0 top-[310px] hover:opacity-50 absolute bg-white rounded-full shadow justify-center items-center gap-2.5 flex">
-                    <LiaGreaterThanSolid/>
+                <div className='absolute'>
+                    <div onClick={() =>handle_Click("left")} className="size[42px] lg:opacity-100 md:opacity-100 opacity-0 p-3 left-[25px] top-[180px] hover:opacity-50 absolute bg-white rounded-full -rotate-180 shadow justify-center items-center gap-2.5 flex" >
+                        <LiaGreaterThanSolid/>
+                    </div>
+                    <div onClick={() =>handle_Click("right")} className="size-[42px] p-2.5 left-[850px] lg:opacity-100 opacity-0 top-[180px] hover:opacity-50 absolute bg-white rounded-full shadow justify-center items-center gap-2.5 flex">
+                        <LiaGreaterThanSolid/>
+                    </div>
                 </div>
         </div>      
 </div>
