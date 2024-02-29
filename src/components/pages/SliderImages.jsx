@@ -27,14 +27,14 @@ function SliderImages() {
         setSelected(images[newIndex]);
     };
   return (
-    <div className='w-[400px] '>
-        <div className="text-neutral-800 lg:text-4xl text-xl font-bold font-Ubuntu">Design a logo for your company or organization</div>
+    <div className='lg:w-auto w-[480px] ml-3'>
+        <div className="text-neutral-800 lg:text-4xl text-lg font-bold font-Ubuntu">Design a logo for your company or organization</div>
             <div className='my-5'>
-                <span className="text-neutral-800 lg:text-xl text-md font-medium font-Ubuntu">Category:</span>
-                <span className="text-neutral-800 lg:text-xl text-md font-normal font-Ubuntu"> Logo Designer</span>
+                <span className="text-neutral-800 lg:text-xl text-sm font-medium font-Ubuntu">Category:</span>
+                <span className="text-neutral-800 lg:text-xl text-sm font-normal font-Ubuntu"> Logo Designer</span>
             </div>
-            <div className="grid lg:gap-2 grid-col-5 lg:w-[910px] w-[380px]" style={{width: '', height: ''}}>
-                <img className="lg:w-[910px] lg:h-[396px] w-[370px] h-auto object-cover col-span-5" src={selected} />
+            <div className="grid lg:gap-2 grid-col-5 lg:w-[910px] w-[250px]" style={{width: '', height: ''}}>
+                <img className="lg:w-[910px] lg:h-[396px] w-[270px] h-auto object-cover col-span-5" src={selected} />
                 <div className='flex'>
                 {images.map((image, index) => (
                     <img className="images-service" style={{opacity: image === selected ? 1 : 0.5 }} key={index} onClick={handleClick} name={image} src={image} />
