@@ -106,7 +106,7 @@
 }
 
 .custom-input-style {
-  @apply lg:w-[542px] md:w-[480px] w-[225px] h-12 p-2.5 text-lg bg-white rounded-[5px] shadow justify-start items-center gap-[113px] inline-flex mx-auto outline-none;
+  @apply h-12 p-2.5 text-lg bg-white rounded-[5px] shadow justify-start items-center gap-[113px] inline-flex mx-auto outline-none;
 }
 
 .circle-design {
