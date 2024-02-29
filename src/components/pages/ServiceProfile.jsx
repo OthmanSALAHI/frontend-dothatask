@@ -8,7 +8,7 @@ function ServiceProfile() {
     const rating = 4
     const remain = 5 - rating
   return (
-    <div className="lg:w-[371px] lg:h-[495px] w-[200px] h-[220px] pt-4 p-[30px] mb-[30px] mt-[110px] pl-2 bg-white shadow flex-col justify-start items-start lg:gap-[57px] gap-[10px] inline-flex">
+    <div className="lg:w-[371px] lg:h-[495px] w-[200px] h-[210px] pt-4 p-[30px] mt-[120px] pl-2 bg-white shadow flex-col justify-start items-start lg:gap-[57px] gap-[10px] inline-flex">
     <div className="justify-start items-center lg:gap-[17px] gap-[2px] inline-flex">
         <img className="lg:size-[50px] size-[30px] object-cover rounded-full" src={worker} />
         <div className="text-center text-stone-950 lg:text-xl text-sm font-medium font-Ubuntu">Alexander Elijah</div>
