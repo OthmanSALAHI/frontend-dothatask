@@ -11,7 +11,7 @@ function ServiceDetails() {
   return (
     <div className='w-full flex lg:flex-row flex-col items-start relative bg-neutral-100 lg:m-[100px] md:m-[60px] lg:gap-[50px] gap-[2px] m-[20px]'>
        <SliderImages />
-    <div className="lg:w-[371px] lg:h-[495px] w-[200px] h-[190px] pt-3 p-[30px] mt-[110px] pl-2 bg-white shadow flex-col justify-start items-start lg:gap-[57px] gap-[10px] inline-flex">
+    <div className="lg:w-[371px] lg:h-[495px] w-[200px] h-[220px] pt-4 p-[30px] mt-[110px] pl-2 bg-white shadow flex-col justify-start items-start lg:gap-[57px] gap-[10px] inline-flex">
     <div className="justify-start items-center lg:gap-[17px] gap-[2px] inline-flex">
         <img className="lg:size-[50px] size-[30px] object-cover rounded-full" src={worker} />
         <div className="text-center text-stone-950 lg:text-xl text-sm font-medium font-Ubuntu">Alexander Elijah</div>
