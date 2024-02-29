@@ -41,7 +41,7 @@ function SliderImages() {
                 ))}
                 </div>
                 <div className='absolute'>
-                    <div onClick={() =>handle_Click("left")} className="size[42px] md:opacity-100 md:opacity-100 opacity-0 p-3 left-[25px] top-[180px] hover:opacity-50 absolute bg-white rounded-full -rotate-180 shadow justify-center items-center gap-2.5 flex" >
+                    <div onClick={() =>handle_Click("left")} className="size[42px] md:opacity-100 opacity-0 p-3 left-[25px] top-[180px] hover:opacity-50 absolute bg-white rounded-full -rotate-180 shadow justify-center items-center gap-2.5 flex" >
                         <LiaGreaterThanSolid/>
                     </div>
                     <div onClick={() =>handle_Click("right")} className="size-[42px] p-2.5 left-[850px] md:opacity-100 opacity-0 top-[180px] hover:opacity-50 absolute bg-white rounded-full shadow justify-center items-center gap-2.5 flex">
