@@ -22,6 +22,7 @@ export const App = () => {
       <Routers />
       <Footer />
       ,<Link to="/details" className="bg-black w-[50px]"> Details </Link>
+      ,<Link to="/profile" className="bg-black w-[50px]"> profile </Link>
     </div>
   );
 };
