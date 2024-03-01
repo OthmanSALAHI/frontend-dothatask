@@ -126,5 +126,5 @@
 }
 
 .images-service {
-  @apply lg:w-[182px] w-[54px] h-auto object-cover hover:opacity-100 opacity-50
+  @apply lg:w-[182px] w-[58px] h-auto object-cover hover:opacity-100 opacity-50
 }
