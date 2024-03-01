@@ -9,14 +9,15 @@ import Footer from "./components/footer/Footer";
 import ServiceDetails from "./components/pages/ServiceDetails";
 import { Link } from 'react-router-dom';
 import NavbarLogged from "./components/header/NavbarLogged";
+import {LOGGED} from "./components/Auth/Signin";
 
 export const App = () => {
   const [Auth, setAuth] = useState(false);
+  LOGGED ? console.log(LOGGED) : console.log('not logged');
   return (
     <div>
       <div className="z-[1] font-ubuntu">
-        {/* <Navbar /> */}
-        <NavbarLogged />
+         {!LOGGED ?  <Navbar /> : <NavbarLogged />}
       </div>
       <Routers />
       <Footer />
