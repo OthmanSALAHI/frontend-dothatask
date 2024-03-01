@@ -6,7 +6,7 @@ function Advertisement() {
     <div className="text-neutral-800 md:text-2xl text-sm font-bold font-Ubuntu my-5">About This Advertisement</div>
     <div className="self-stretch md:w-[1050px] w-[280px]">
       <span className="text-neutral-800 md:text-xl text-sm font-normal font-Ubuntu">Welcome to my Modern Minimalist Luxury Logo Design Gig. <br/> <br/> Are you looking for a Minimalist logo design? Look no further! Why nowadays we see mostly Minimal logos for successful brands like Instagram, Twitter & many more? Because it’s an Era of the clean and minimal theme.<br/> <br/> WHY ME:<br/> <br/>
-      <ul className='list-disc ml-8 md:text-lg text-xs'>
+      <ul className='list-disc ml-8 md:text-lg text-md'>
         <li>Talented and Dedicated Designer</li>
         <li>Fully custom made, creative, original, UNIQUE and AWESOME designs</li>
         <li>48 to 72 hrs super fast delivery</li>
