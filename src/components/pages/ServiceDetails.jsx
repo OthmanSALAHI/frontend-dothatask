@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
-import SliderImages from './SliderImages';
-import ServiceProfile from './ServiceProfile';
-import Advertisement from './Advertisement';
+import SliderImages from '../ServiceDetails/SliderImages';
+import ServiceProfile from '../ServiceDetails/ServiceProfile';
+import Advertisement from '../ServiceDetails/Advertisement';
 import { Comment } from '../Profile/Comment';
 
 function ServiceDetails() {
