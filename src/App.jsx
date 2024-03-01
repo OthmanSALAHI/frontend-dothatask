@@ -8,13 +8,15 @@ import SearchCategorie from "./components/areas/SearchCategorie";
 import Footer from "./components/footer/Footer";
 import ServiceDetails from "./components/pages/ServiceDetails";
 import { Link } from 'react-router-dom';
+import NavbarLogged from "./components/header/NavbarLogged";
 
 export const App = () => {
   const [Auth, setAuth] = useState(false);
   return (
     <div>
-      <div className="z-[1]">
-        <Navbar />
+      <div className="z-[1] font-ubuntu">
+        {/* <Navbar /> */}
+        <NavbarLogged />
       </div>
       <Routers />
       <Footer />
