@@ -8,7 +8,7 @@ function ServiceDetails() {
   const commentsNumber = 6
   return (
     <div className='relative bg-neutral-100 md:m-[50px] flex flex-col justify-center items-center'>
-      <div className='md:w-[1300px] w-[400px] flex items-center justify-center md:gap-[40px] gap-[5px] md:m-[20px]'>
+      <div className='md:w-[1300px] w-[360px] lg:ml-24 flex lg:flex-row flex-col lg:items-center lg:justify-center md:gap-[40px] gap-[5px] md:m-[20px]'>
         <SliderImages />
           <ServiceProfile/>
       </div>
