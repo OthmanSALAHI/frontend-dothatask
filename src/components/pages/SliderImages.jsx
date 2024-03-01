@@ -33,7 +33,7 @@ function SliderImages() {
                 <span className="text-neutral-800 md:text-xl text-sm font-medium font-Ubuntu">Category:</span>
                 <span className="text-neutral-800 md:text-xl text-sm font-normal font-Ubuntu"> Logo Designer</span>
             </div>
-            <div className="grid md:gap-2 grid-col-5 md:w-[910px] w-[250px]" style={{width: '', height: ''}}>
+            <div className="grid md:gap-2 grid-col-5 md:w-[910px] w-[390px]" style={{width: '', height: ''}}>
                 <img className="md:w-[910px] md:h-[396px] w-[270px] h-auto object-cover col-span-5" src={selected} />
                 <div className='flex'>
                 {images.map((image, index) => (
