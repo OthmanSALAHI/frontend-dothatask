@@ -3,6 +3,7 @@ import user from '../assets/images/user1.jpg';
 import { GoPerson } from "react-icons/go";
 import { IoAddCircleOutline } from "react-icons/io5";
 import { IoIosLogOut } from "react-icons/io";
+import { Link } from 'react-router-dom';
 
 function ProfilePop() {
   return (
@@ -18,10 +19,10 @@ function ProfilePop() {
             <div className="w-[200px] border h-0 border-zinc-400"></div>
         </div>
         <div className="self-stretch h-[102px] relative">
-            <div className="w-[193px] h-[34px] pl-[15px] pr-2.5 py-[7px] left-0 top-0 absolute bg-white justify-start items-center gap-2.5 inline-flex hover:opacity-60">
+            <Link to={'/profile'} className="w-[193px] h-[34px] pl-[15px] pr-2.5 py-[7px] left-0 top-0 absolute bg-white justify-start items-center gap-2.5 inline-flex hover:opacity-60">
                 <GoPerson className="size-6 relative" />
                 <div className="text-stone-950 text-sm font-medium font-Ubuntu">Profile</div>
-            </div>
+            </Link>
             <div className="w-[193px] h-[34px] pl-[15px] pr-2.5 py-[7px] left-0 top-[34px] absolute bg-white justify-start items-center gap-2.5 inline-flex hover:opacity-60">
                 <IoAddCircleOutline className="size-6 relative" />
                 <div className="text-stone-950 text-sm font-medium font-Ubuntu">Add service</div>
