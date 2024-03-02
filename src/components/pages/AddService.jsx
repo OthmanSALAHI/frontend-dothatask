@@ -1,6 +1,7 @@
 import React from 'react'
 import { useForm } from 'react-hook-form';
 import { ImAttachment } from "react-icons/im";
+import Keyword from '../AddService/Keywords';
 
 function AddService() {
     const categories = [
@@ -45,7 +46,12 @@ function AddService() {
                 <div className="text-neutral-800 text-2xl mt-5 font-medium">Service Price</div>
                 <input type='number' placeholder="Exemple: 300DH" className="w-[294px] h-12 p-2.5 bg-white rounded-lg shadow text-do_gray_text_input text-xl font-normal"/>
                 <div className="text-neutral-800 text-2xl mt-5 font-medium">Keywords</div>
-                
+                <label for="keywords-input" className="w-[601px] h-12 p-2.5 bg-white rounded-[5px] shadow justify-start items-center gap-[5px] inline-flex">
+                    <Keyword content={"design"} />
+                    <Keyword content={"graphic"} />
+                    <Keyword content={"ilustrate"} />
+                    <input type="text" id="keywords-input" className="hidden" />
+                </label>
             </form>
         </div>
     </div>
