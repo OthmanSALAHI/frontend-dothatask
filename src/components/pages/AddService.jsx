@@ -3,8 +3,8 @@ import React from 'react'
 function AddService() {
   return (
     <div className='relative'>
-        <div className='flex justify-center items-center h-[100vh]'>
-            <h1 className='text-4xl font-bold text-center'>Add Service</h1>
+        <div className='m-[120px]'>
+            <div className="text-neutral-800 md:text-4xl text-md font-bold font-ubuntu" >Add New Service</div>
         </div>
     </div>
   )
