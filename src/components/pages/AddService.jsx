@@ -1,6 +1,6 @@
 import React from 'react'
 import { useForm } from 'react-hook-form';
-
+import { ImAttachment } from "react-icons/im";
 
 function AddService() {
     const categories = [
@@ -36,9 +36,9 @@ function AddService() {
                 <div className="text-neutral-800 text-xl font-medium ">Service description</div>
                 <div className="w-[580px] text-neutral-500 text-lg font-normal ">enterthe service description accurately that includes all information and conditions</div>
                 <textarea type="comment" placeholder='i need ...' className='w-[580px] h-48 p-2' />
-                <label for="zone-file" className="w-[162px] h-12 p-2.5 bg-zinc-200 rounded-lg justify-center items-center gap-2.5 inline-flex">
+                <label for="zone-file" className="w-[162px] h-12 p-2.5 bg-zinc-200 rounded-lg justify-center items-center gap-2.5 flex">
                     <div className="text-neutral-700 text-base font-normal ">Attach a picture</div>
-                    <div className="w-4 h-4 relative" />
+                    <ImAttachment className="w-4 h-4 opacity-50 relative" />
                     <input id="zone-file" className="hidden w-[162px] h-12 " type="file"/>
                 </label>
             </form>
