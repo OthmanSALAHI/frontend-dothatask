@@ -41,8 +41,8 @@ function AddService() {
                     <ImAttachment className="w-4 h-4 opacity-50 relative" />
                     <input id="zone-file" className="hidden w-[162px] h-12 " type="file"/>
                 </label>
-                <div className="w-[601px] text-neutral-500 text-base font-normal">Add well-designed pictures to show you service professionally and increase your sales.</div>
-                <div className="text-neutral-800 text-xl font-medium font-['Ubuntu']">Service Price</div>
+                <div className="w-[580px] text-neutral-500 text-lg font-normal">Add well-designed pictures to show you service professionally and increase your sales.</div>
+                <div className="text-neutral-800 text-xl font-medium">Service Price</div>
             </form>
         </div>
     </div>
