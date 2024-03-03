@@ -12,7 +12,6 @@ import NavbarLogged from "./components/header/NavbarLogged";
 import {LOGGED} from "./components/Auth/Signin";
 
 export const App = () => {
-  const [Auth, setAuth] = useState(false);
   LOGGED ? console.log(LOGGED) : console.log('not logged');
   return (
     <div>
