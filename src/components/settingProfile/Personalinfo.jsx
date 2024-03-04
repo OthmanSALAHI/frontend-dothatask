@@ -2,7 +2,7 @@ import React from 'react'
 
 function Personalinfo() {
   return (
-    <div className="w-[650px] h-[538px] p-14 bg-white shadow flex-col justify-start items-start gap-10">
+    <div className="w-[650px] h-[538px] p-14 pb-4 bg-white shadow flex-col justify-start items-start gap-10">
         <div className="text-neutral-800 text-2xl font-medium mb-10">Personal Information</div>
         <div className='grid grid-cols-2 gap-0 my-2'>
           <div className="w-[291px] h-[76px] flex-col justify-start items-start gap-2.5">
@@ -32,7 +32,7 @@ function Personalinfo() {
         </div>
         <button type='submit' className="w-[119px] h-[38px] my-5 p-2.5 bg-do_green hover:bg-do_hover_green rounded-[5px] justify-center items-center gap-2.5 inline-flex">
           <div className="text-white text-base font-medium ">Save changes</div>
-      </button>
+        </button>
     </div>
   )
 }
