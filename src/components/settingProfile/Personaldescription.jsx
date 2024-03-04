@@ -5,7 +5,7 @@ function Personaldescription() {
     <div>
         <div className="md:w-[597px] w-full lg:h-[559px] h-[630px]  p-5 bg-white shadow flex-col justify-center items-start gap-10 ">
             <div className=" h-[341px] flex-col justify-start items-start gap-4 flex">
-                <div className="text-center text-stone-950 text-[32px] font-medium">Change Description</div>
+                <div className="text-center text-stone-950 text-3xl font-medium">Change Description</div>
                 <div className=" text-neutral-600 text-xl font-normal">
                     Hello, I'm Alexander Elijah, a passionate logo designer specializing in crafting visually appealing and 
                     impactful brand identities. I excel in creating unique logos that resonate with target audiences. 
