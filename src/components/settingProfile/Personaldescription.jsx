@@ -7,6 +7,7 @@ function Personaldescription() {
             <div className=" h-[341px] flex-col justify-start items-start gap-4 flex">
                 <div className="text-center text-stone-950 text-3xl font-medium">Change Description</div>
                 <div className=" text-neutral-600 text-xl font-normal">
+                <input className=" text-neutral-600 text-xl font-normal hidden" type='text' />
                     Hello, I'm Alexander Elijah, a passionate logo designer specializing in crafting visually appealing and 
                     impactful brand identities. I excel in creating unique logos that resonate with target audiences. 
                     With a keen eye for detail, I ensure that each design is not only aesthetically pleasing but also 
