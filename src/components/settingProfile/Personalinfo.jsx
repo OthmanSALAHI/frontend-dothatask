@@ -30,7 +30,7 @@ function Personalinfo() {
           <div className="text-neutral-600 text-base font-normal">City</div>
           <input type='text' value='Dakhla' className="w-[490px] h-12 p-2.5 bg-white rounded-[5px] shadow justify-start items-center gap-[113px] inline-flex" />
         </div>
-        <button type='submit' className="w-[119px] h-[38px] my-5 p-2.5 bg-do_green hover:bg-do_hover_green rounded-[5px] justify-center items-center gap-2.5 inline-flex">
+        <button type='submit' className="p-2.5 mt-2 bg-do_green hover:bg-do_hover_green rounded-[5px] justify-end items-center gap-2.5">
           <div className="text-white text-base font-medium ">Save changes</div>
         </button>
     </div>
