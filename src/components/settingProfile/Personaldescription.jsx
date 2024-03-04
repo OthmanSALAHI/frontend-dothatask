@@ -3,7 +3,7 @@ import React from 'react'
 function Personaldescription() {
   return (
     <div>
-        <div className="md:w-[597px] w-full lg:h-[559px] h-[830px] p-5 bg-white shadow flex-col justify-center items-start gap-4 ">
+        <div className="md:w-[650px] w-full lg:h-[500px] h-[750px] p-5 bg-white shadow flex-col justify-center items-start gap-4 ">
             <div className=" h-[341px] flex-col justify-start items-start gap-4 flex">
                 <div className="text-center text-stone-950 text-3xl font-medium">Change Description</div>
                 <div className=" text-neutral-600 text-xl font-normal">
