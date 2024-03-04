@@ -3,7 +3,7 @@ import React from 'react'
 function Personaldescription() {
   return (
     <div>
-        <div className="md:w-[597px] w-full lg:h-[559px] h-[630px]  p-5 bg-white shadow flex-col justify-center items-start gap-10 ">
+        <div className="md:w-[597px] w-full lg:h-[559px] h-[830px] p-5 bg-white shadow flex-col justify-center items-start gap-4 ">
             <div className=" h-[341px] flex-col justify-start items-start gap-4 flex">
                 <div className="text-center text-stone-950 text-3xl font-medium">Change Description</div>
                 <div className=" text-neutral-600 text-xl font-normal">
@@ -15,10 +15,10 @@ function Personaldescription() {
                     learning and collaboration allows me to stay at the forefront of design trends and work seamlessly with other 
                     creative professionals. I straongly believe that design has the power to drive positive change.
                 </div>
-            </div>
-            <button type='submit' className="p-2.5 mt-24 bg-do_green hover:bg-do_hover_green rounded-[5px] justify-end items-center gap-2.5">
+            <button type='submit' className="p-2.5 bg-do_green hover:bg-do_hover_green rounded-[5px] justify-end items-center gap-2.5">
                 <div className="text-white text-base font-medium ">Save changes</div>
             </button>
+            </div>
         </div>
     </div>
   )
