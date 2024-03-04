@@ -7,7 +7,7 @@ function SettingProfile() {
     <div className='lg:m-32 m-0'>
         <div className='flex flex-col gap-16'>
             <div className="text-neutral-800 text-5xl font-bold ">My Profile</div>
-            <div className='flex gap-10 mx-auto'>
+            <div className='flex lg:flex-row flex-col gap-14 mx-auto'>
               <Personalinfo />
               <Personaldescription />
             </div>
