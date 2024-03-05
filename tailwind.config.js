@@ -38,7 +38,7 @@ module.exports = {
         do_green: '#00B05E',
         do_hover_green: '#008A4B',
         do_gray_text: '#6C6C6C',
-        do_disabled: '#6C6C6C',
+        do_disabled: '#E5E7EB',
         do_hover_gray_text: '#b8b8b8',
         do_gray_text_input: '#909090',
         do_white: 'F7F7F7',
