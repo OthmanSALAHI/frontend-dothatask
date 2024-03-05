@@ -20,6 +20,7 @@ module.exports = {
       fontFamily: {
         ubuntu: ['Ubuntu', 'sans-serif'],
         abril: ['"Abril Fatface"', 'cursive'],
+        nunito: ['Nunito Sans', 'sans-serif'],
       },
       fontWeight: {
         '300': 300,
