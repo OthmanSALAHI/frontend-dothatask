@@ -12,8 +12,8 @@ function TypePage() {
                 <div className="w-[280px] text-center flex justify-center items-center text-stone-950 text-3xl font-normal font-nunito">I'm a client looking to hire for a project.</div>
             </div>
         </div>
-        <button className="w-40 h-[38px] mx-auto px-5 bg-do_green hover:bg-do_hover_green  rounded-lg justify-center items-center gap-2.5">
-            <div className="text-do_gray_text text-base font-medium font-ubuntu">Choose your job</div>
+        <button disabled={true} className="w-40 h-12 mx-auto px-5 bg-gray-200 hover:bg-do_hover_green  rounded-lg justify-center items-center gap-2.5">
+            <div className="text-neutral-100 text-base font-medium font-ubuntu">Choose your job</div>
         </button>
     </div>
   )
