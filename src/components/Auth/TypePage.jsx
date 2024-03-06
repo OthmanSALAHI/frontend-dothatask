@@ -16,7 +16,7 @@ function TypePage() {
             <div className='w-[700px] h-64 flex gap-8 mx-auto'>
                 <label htmlFor='for-client' className="w-[380px] h-[184px] flex rounded-[10px] border-2 border-zinc-400 hover:border-do_green focus:bg-white justify-center items-center gap-2.5 mt-5">
                     <div className="w-[280px] text-center flex justify-center items-center text-stone-950 text-3xl font-normal font-nunito">I'm a client looking to hire for a project.</div>
-                    <input type="radio" {...register('type-user', {required : true})} className='hidden' name="type_user" id="for-client" />
+                    <input type="radio" {...register('type-user', {required : true})} className='hidden ' name="type_user" id="for-client" />
                 </label>
                 <label htmlFor='for-worker' className="w-[380px] h-[184px] flex rounded-[10px] border-2 border-zinc-400 hover:border-do_green focus:bg-white justify-center items-center gap-2.5 mt-5">
                     <div className="w-[280px] text-center flex justify-center items-center text-stone-950 text-3xl font-normal font-nunito">I'm a freelancer in search of new opportunities.</div>
