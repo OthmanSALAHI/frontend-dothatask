@@ -25,7 +25,7 @@ function TypePage() {
                         <input type="radio" {...register('type-user', { required: true })} className='hidden' value="worker" name="type-user" id="for-worker" />
                     </label>
                 </div>
-                <button disabled={false} type="submit" className="w-40 h-12 mx-auto px-5 bg-do_disabled hover:bg-do_hover_green rounded-lg justify-center items-center gap-2.5">
+                <button disabled={watch('type-user') == '' ? true : false} type="submit" className="w-40 h-12 mx-auto px-5  hover:bg-do_hover_green rounded-lg justify-center items-center gap-2.5">
                     <div className="text-neutral-300 text-base font-medium font-ubuntu">Choose your job</div>
                 </button>
             </form>
