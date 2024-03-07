@@ -12,9 +12,9 @@ function AboutUs() {
                 </p>
             </Link>
         </div>
-        <div className="w-[1440px] mx-auto  text-center text-stone-950 md:text-xl text-lg font-normal">Dothatask revolutionizes the way individuals connect with skilled professionals. This platform is your go-to destination for seamlessly finding artisans and experts from various cities. Whether you're seeking a service or offering your skills, DoThatAsk simplifies the process, creating a vibrant community of opportunity seekers and providers.</div>
+        <div className="lg:w-[1440px] w-[300px] mx-auto  text-center text-stone-950 md:text-xl text-lg font-normal">Dothatask revolutionizes the way individuals connect with skilled professionals. This platform is your go-to destination for seamlessly finding artisans and experts from various cities. Whether you're seeking a service or offering your skills, DoThatAsk simplifies the process, creating a vibrant community of opportunity seekers and providers.</div>
         <div className="w-[204px] text-center mx-auto my-12 text-stone-950 text-3xl font-bold font-Ubuntu">Key Features</div>
-        <div className='grid lg:grid-cols-2 grid-cols-1 mx-auto w-[1440px] gap-20 flex-wrap'>
+        <div className='grid lg:grid-cols-2 grid-cols-1 mx-auto lg:w-[1440px] w-[320px] lg:gap-20 gap-8 flex-wrap'>
             <div className="lg:w-[478px] w-[300px] text-center mx-auto">
                 <span className="text-neutral-600 md:text-xl text-lg font-bold ">Discover Services:<br/></span><span className="text-neutral-600 md:text-lg text-md font-normal ">Explore a diverse array of services from talented professionals across different cities. From home improvement to creative services, DoThatAsk connects you with the expertise you need.<br/></span>
                 <span className="text-neutral-600 md:text-lg text-md font-normal ">
@@ -66,7 +66,7 @@ function AboutUs() {
                 </span>
             </div>
         </div>
-            <div className="lg:w-[478px] w-[300px] text-center mx-auto my-20">
+            <div className="lg:w-[478px] w-[300px] text-center mx-auto lg:my-20 my-8">
                 <span className="text-neutral-600 md:text-xl text-lg font-bold "> Profile Management: <br/></span>
                 <span className="text-neutral-600 md:text-lg text-md font-normal ">
                 Efficiently manage your profile, including personal information, services offered, and client reviews. Keep your profile up-to-date to showcase your evolving skills.
