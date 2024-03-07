@@ -60,7 +60,16 @@ function AboutUs() {
                 <span className="text-neutral-600 text-xl font-bold ">User Reviews and Ratings: <br/></span>
                 <span className="text-neutral-600 text-lg font-normal ">
                  Make informed decisions by reading reviews and ratings from other DoThatAsk users. Learn from their experiences and choose the right professional for your task.
-                    <br/>
+                <br/>
+                </span>
+                <span className="text-neutral-600 text-lg font-normal ">
+                </span>
+            </div>
+            <div className="w-[478px] text-center mx-auto">
+                <span className="text-neutral-600 text-xl font-bold "> Profile Management: <br/></span>
+                <span className="text-neutral-600 text-lg font-normal ">
+                Efficiently manage your profile, including personal information, services offered, and client reviews. Keep your profile up-to-date to showcase your evolving skills.
+                <br/>
                 </span>
                 <span className="text-neutral-600 text-lg font-normal ">
                 </span>
