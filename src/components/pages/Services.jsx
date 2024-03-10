@@ -3,6 +3,7 @@ import SearchCategorie from '../areas/SearchCategorie';
 import  worker  from '../assets/images/worker.jpg';
 import construction from '../assets/images/construction.jpg';
 import { FaStar } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 function Services() {
   const searchedCategories = new Array(12).fill(0);
@@ -21,7 +22,7 @@ function Services() {
       <div className="w-[1840px] opacity-70 h-[0px] border border-neutral-600 md:my-[80px] my-[20px]"></div>
       <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 my-8'>
         {searchedCategories.map(() => (
-          <div className="w-[284px] h-[368px] flex-col justify-start items-start gap-1.5 my-5 inline-flex">
+          <Link to={'/details'} className="w-[284px] h-[368px] flex-col justify-start items-start gap-1.5 my-5 inline-flex">
             <img className="w-[284px] h-[189px] rounded-[10px]" src={construction} />
             <div className="flex-col justify-start items-start gap-2.5 flex">
               <div className="justify-start items-center gap-3.5 inline-flex">
@@ -45,7 +46,7 @@ function Services() {
                 </div>
               </div>
             </div>
-          </div>
+          </Link>
         ))}
       </div>
     </div>
